@@ -1,0 +1,75 @@
+@use "/src/utils";
+
+.Header {
+  --mask: radial-gradient(
+        68.82px at 50% calc(100% - 96px),
+        #000 99%,
+        #0000 101%
+      )
+      calc(50% - 80px) 0/160px 100%,
+    radial-gradient(68.82px at 50% calc(100% + 56px), #0000 99%, #000 101%) 50%
+      calc(100% - 40px) / 160px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+
+  /* display: flex; */
+  background-color: utils.$lime-100;
+  height: 124px;
+  // width: 900px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+  // background-color: red;
+  @include utils.roboto;
+  @include utils.concert-one;
+
+  border: 1px red solid;
+  padding-inline: 1rem;
+  // font-weight: 100;
+
+  a {
+    color: utils.$lime-800;
+    // color: utils.$black-1;
+    text-decoration: none;
+    svg {
+      margin-right: 4px;
+    }
+  }
+
+  font-size: 1.4rem;
+  .nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 22rem;
+    height: 3.5rem;
+    // border-radius: 4px;
+    // border: solid 1px utils.$lime-600;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  .logo__container {
+    height: 64px;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    object-fit: contain;
+    /* max-width: 100%; */
+    max-height: 100%;
+  }
+  .logo__text {
+    @include utils.concert-one;
+    color: utils.$lime-800;
+  }
+  .active {
+    color: utils.$lime-900;
+
+    text-decoration: underline utils.$lime-500 5px;
+    text-underline-offset: 5px;
+  }
+}

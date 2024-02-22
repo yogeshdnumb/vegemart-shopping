@@ -1,0 +1,50 @@
+@mixin roboto($weight: 400) {
+  font-family: "Roboto", sans-serif;
+  font-weight: $weight;
+  font-style: normal;
+  // color: red;
+}
+@mixin concert-one($weight: 400) {
+  font-family: "Concert One", sans-serif;
+  font-weight: $weight;
+  font-style: normal;
+  // color: red;
+}
+@mixin flexy($direction: row) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin btn() {
+  padding: 0.5rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  background-color: $lime-300;
+  color: $lime-800;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  * {
+    text-decoration: none;
+  }
+}
+
+$black-1: #052e16;
+
+$lime-50: #f7fee7;
+$lime-100: #ecfccb;
+$lime-200: #d9f99d;
+$lime-300: #bef264;
+$lime-400: #a3e635;
+$lime-500: #84cc16;
+$lime-600: #65a30d;
+$lime-700: #4d7c0f;
+$lime-800: #3f6212;
+$lime-900: #365314;
+$lime-950: #1a2e05;

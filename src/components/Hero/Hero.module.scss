@@ -1,0 +1,29 @@
+@use "/src/utils";
+.Hero {
+  height: 400px;
+  width: clamp(300px, 100vw, 900px);
+
+  display: flex;
+}
+
+.hero__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+  @include utils.roboto;
+  font-size: 3rem;
+  color: utils.$lime-700;
+  button {
+    @include utils.btn;
+  }
+}
+.hero__img {
+  height: 100%;
+
+  img {
+    height: 100%;
+  }
+}

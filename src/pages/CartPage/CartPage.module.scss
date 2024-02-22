@@ -1,0 +1,21 @@
+@use "/src/utils.scss";
+
+.cartRow {
+  @include utils.roboto;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+
+  img {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 400px;
+    /* max-width: 400px; */
+  }
+  button {
+    @include utils.btn;
+  }
+}

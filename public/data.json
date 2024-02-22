@@ -1,0 +1,156 @@
+[
+  {
+    "id": 0,
+    "name": "carrot",
+    "img": "/carrot.png",
+    "description": "Discover the crisp freshness of our vibrant carrots! Perfect for snacking or adding a burst of color to salads, these crunchy carrots are packed with essential nutrients like beta-carotene, promoting healthy vision and glowing skin. Elevate your culinary creations with these versatile root vegetables!",
+    "price": "50"
+  },
+  {
+    "id": 1,
+    "name": "onion",
+    "img": "/shallot.png",
+    "description": "Enhance the depth and flavor of your dishes with our aromatic onions! Whether caramelized in savory stews or pickled for tangy relishes, our onions add a delightful punch to your culinary creations. Rich in antioxidants and vitamins, our onions promote immune health and support overall well-being. Elevate your culinary experience with our premium onions!",
+    "price": "40"
+  },
+  {
+    "id": 2,
+    "name": "tomato",
+    "img": "/tomato.png",
+    "description": "Savor the succulent sweetness of our ripe tomatoes! Bursting with flavor and essential nutrients, these juicy tomatoes are perfect for vibrant salads, hearty sauces, or refreshing sandwiches. Rich in vitamins C and K, our tomatoes promote heart health and radiant skin. Elevate your culinary experience with our premium tomatoes!",
+    "price": "45"
+  },
+  {
+    "id": 3,
+    "name": "potato",
+    "img": "/potato.png",
+    "description": "Delight in the comforting goodness of our versatile potatoes! Whether mashed, roasted, or fried, our creamy potatoes are perfect for creating satisfying dishes. Rich in carbohydrates and potassium, our potatoes provide sustained energy and promote muscle function. Elevate your culinary creations with our premium potatoes!",
+    "price": "35"
+  },
+  {
+    "id": 4,
+    "name": "bell pepper",
+    "img": "/bell-pepper.png",
+    "description": "Experience the vibrant colors and flavors of our crisp bell peppers! From vibrant salads to sizzling fajitas, our bell peppers add a delightful crunch and sweetness to your favorite dishes. Packed with vitamins A and C, our bell peppers promote healthy vision and support immune function. Elevate your culinary creations with our premium bell peppers!",
+    "price": "70"
+  },
+  {
+    "id": 5,
+    "name": "cucumber",
+    "img": "/cucumber.png",
+    "description": "Quench your thirst and refresh your palate with our crisp cucumbers! Perfect for hydrating salads, refreshing drinks, or crunchy snacks, our cucumbers are low in calories and high in water content, promoting hydration and radiant skin. Elevate your culinary experience with our premium cucumbers!",
+    "price": "30"
+  },
+  {
+    "id": 6,
+    "name": "lettuce",
+    "img": "/lettuce.png",
+    "description": "Indulge in the crisp freshness of our leafy lettuce! From vibrant salads to wholesome wraps, our lettuce adds a refreshing crunch and mild flavor to your favorite dishes. Packed with vitamins A, C, and K, our lettuce promotes healthy digestion and supports glowing skin. Elevate your culinary creations with our premium lettuce!",
+    "price": "25"
+  },
+  {
+    "id": 7,
+    "name": "spinach",
+    "img": "/spinach.png",
+    "description": "Experience the leafy goodness of our fresh spinach leaves! Packed with vitamins A, C, and K, our spinach promotes bone health, supports immune function, and enhances skin radiance. From vibrant salads to nutrient-packed smoothies, incorporate the versatile goodness of spinach into your daily meals!",
+    "price": "55"
+  },
+  {
+    "id": 8,
+    "name": "garlic",
+    "img": "/garlic.png",
+    "description": "Awaken your senses with the aromatic allure of our pungent garlic! Whether minced, crushed, or roasted, our garlic adds depth and complexity to your favorite dishes. Renowned for its potential health benefits, our garlic supports immune function and promotes heart health. Elevate your culinary creations with our premium garlic!",
+    "price": "65"
+  },
+  {
+    "id": 9,
+    "name": "zucchini",
+    "img": "/zucchini.png",
+    "description": "Embrace the tender goodness of our versatile zucchini! Whether grilled, sautéed, or baked, our zucchini adds a delightful texture and mild flavor to your dishes. Low in calories and rich in vitamins C and A, our zucchini promotes healthy digestion and radiant skin. Elevate your culinary experience with our premium zucchini!",
+    "price": "55"
+  },
+  {
+    "id": 10,
+    "name": "cauliflower",
+    "img": "/cauliflower.png",
+    "description": "Discover the versatile allure of our creamy cauliflower! From hearty soups to low-carb rice substitutes, our cauliflower adds a delicious texture and mild sweetness to your favorite dishes. Packed with vitamins C and K, our cauliflower promotes immune health and supports bone strength. Elevate your culinary creations with our premium cauliflower!",
+    "price": "50"
+  },
+  {
+    "id": 11,
+    "name": "sweet potato",
+    "img": "/sweet-potato.png",
+    "description": "Indulge in the sweet richness of our vibrant sweet potatoes! Whether baked, mashed, or roasted, our sweet potatoes are perfect for creating satisfying and nutritious dishes. Packed with vitamins A and C, our sweet potatoes support immune function and promote glowing skin. Elevate your culinary experience with our premium sweet potatoes!",
+    "price": "45"
+  },
+  {
+    "id": 12,
+    "name": "asparagus",
+    "img": "/asparagus.png",
+    "description": "Experience the tender elegance of our vibrant asparagus! Whether grilled, steamed, or roasted, our asparagus adds a delightful crunch and nutty flavor to your dishes. Rich in vitamins A, C, and K, our asparagus promotes healthy digestion and supports radiant skin. Elevate your culinary creations with our premium asparagus!",
+    "price": "60"
+  },
+  {
+    "id": 13,
+    "name": "eggplant",
+    "img": "/eggplant.png",
+    "description": "Indulge in the creamy richness of our versatile eggplant! Whether grilled, roasted, or sautéed, our eggplant adds a delightful texture and mild flavor to your favorite dishes. Packed with fiber and antioxidants, our eggplant promotes digestive health and supports overall well-being. Elevate your culinary experience with our premium eggplant!",
+    "price": "50"
+  },
+  {
+    "id": 14,
+    "name": "mushroom",
+    "img": "/mushroom.png",
+    "description": "Savor the earthy richness of our meaty mushrooms! Whether sautéed, grilled, or roasted, our mushrooms add depth and umami to your favorite dishes. Low in calories and rich in vitamins and minerals, our mushrooms support immune function and promote overall well-being. Elevate your culinary creations with our premium mushrooms!",
+    "price": "70"
+  },
+  {
+    "id": 15,
+    "name": "green bean",
+    "img": "/green-bean.png",
+    "description": "Discover the vibrant crunch of our crisp green beans! Whether steamed, stir-fried, or sautéed, our green beans add a delightful texture and fresh flavor to your dishes. Packed with vitamins C and K, our green beans promote healthy digestion and support radiant skin. Elevate your culinary experience with our premium green beans!",
+    "price": "40"
+  },
+  {
+    "id": 16,
+    "name": "broccoli",
+    "img": "/broccoli.png",
+    "description": "Indulge in the verdant allure of our tender green broccoli! Bursting with flavor and nutrients, our broccoli florets are rich in fiber and antioxidants, promoting digestive health and boosting immunity. Whether steamed, roasted, or stir-fried, elevate your dishes with the wholesome goodness of broccoli!",
+    "price": "60"
+  },
+  {
+    "id": 17,
+    "name": "beet",
+    "img": "/beet.png",
+    "description": "Experience the sweet earthiness of our vibrant beets! Whether roasted, boiled, or grated raw into salads, our beets add a delightful color and flavor to your favorite dishes. Rich in vitamins C and B6, folate, and antioxidants, our beets support immune function and promote heart health. Elevate your culinary creations with our premium beets!",
+    "price": "55"
+  },
+  {
+    "id": 18,
+    "name": "celery",
+    "img": "/celery.png",
+    "description": "Refresh your palate with the crisp goodness of our flavorful celery! Whether enjoyed raw as a crunchy snack or added to soups and salads, our celery adds a delightful crunch and mild flavor to your dishes. Packed with vitamins A, C, and K, our celery supports immune health and promotes overall well-being. Elevate your culinary experience with our premium celery!",
+    "price": "30"
+  },
+  {
+    "id": 19,
+    "name": "cabbage",
+    "img": "/cabbage.png",
+    "description": "Embrace the crisp freshness of our leafy cabbage! Versatile and nutritious, our cabbage is perfect for crunchy coleslaws, hearty soups, or savory stir-fries. Packed with vitamins C and K, our cabbage promotes immune health and supports glowing skin. Add a vibrant touch to your meals with our premium cabbage!",
+    "price": "40"
+  },
+  {
+    "id": 20,
+    "name": "corn",
+    "img": "/corn.png",
+    "description": "Indulge in the sweet juiciness of our succulent corn! Whether enjoyed fresh off the cob, grilled, or added to salads and soups, our corn adds a delightful sweetness and crunch to your favorite dishes. Packed with vitamins A, B, and C, our corn promotes healthy vision and supports immune function. Elevate your culinary creations with our premium corn!",
+    "price": "45"
+  },
+  {
+    "id": 21,
+    "name": "radish",
+    "img": "/raddish.png",
+    "description": "Experience the peppery crunch of our vibrant radishes! Whether sliced raw into salads or pickled for tangy relishes, our radishes add a delightful kick and color to your dishes. Low in calories and high in fiber, vitamins C and K, and antioxidants, our radishes support digestive health and promote glowing skin. Elevate your culinary creations with our premium radishes!",
+    "price": "35"
+  }
+]
