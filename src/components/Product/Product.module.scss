@@ -6,7 +6,11 @@
 .Product {
   // border: 0.1px dotted green;
   border-radius: 0.5rem;
-
+  // width: 300px;
+  // height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   // background-color: #ecfccb;
   box-shadow: utils.$lime-200 5px 5px 10px;
 
@@ -24,15 +28,30 @@
   .footer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+
     // border-top: 1px dotted green;
     background-color: utils.$lime-100;
     color: utils.$lime-900;
     font-weight: bold;
+    button {
+      background-color: utils.$lime-100;
+      height: 100%;
+    }
   }
 
   .product__name,
   .product__price {
     @include utils.roboto;
     font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .Product .img-container {
+    width: 100vw;
+    height: 200px;
+    // background-color: red;
+    // height: 200px;
   }
 }

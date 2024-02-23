@@ -1,9 +1,11 @@
 @use "/src/utils";
 .Hero {
-  height: 400px;
-  width: clamp(300px, 100vw, 900px);
+  // width: clamp(300px, 100vw, 900px);
 
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
 
 .hero__text {
@@ -21,9 +23,20 @@
   }
 }
 .hero__img {
-  height: 100%;
+  // height: 100%;
+  width: 100%;
+  // flex: 1;
+  // background-color: red;
 
   img {
-    height: 100%;
+    // height: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero__img {
+    display: none;
+    // width: 300px;
   }
 }
